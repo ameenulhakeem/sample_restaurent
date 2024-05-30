@@ -1,0 +1,281 @@
+.header-area{
+    height: 100px;
+    width: 100%;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.logo-img{
+    margin-top: 26px;
+}
+.list-item {
+    display: inline-block;
+    margin: 10px 25px;
+    margin-top: 30px;
+}
+.lists{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.lists:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .row {  
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container-fluid , .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    max-width: 1140px;
+}
+.carousel-item{
+    height: 700px;
+    width: 100%;
+    max-height: 700px;
+}
+.top-left-img{
+    position: relative;
+    text-align: center;
+    color: white;  
+    height: 100%;
+    max-height: 700px;
+}
+.inner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.inner-content h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+}
+.inner-content h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+.inner-order-button a {
+    font-size: 13px;
+    color: #fb5849;
+    background-color: #fff;
+    padding: 12px 25px;
+    border-radius: 3px;
+    font-weight:bold;
+    text-decoration: none;
+    margin: 20px 0px;
+    display: inline-block;
+}
+.section-heading h6 {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.left-about-text-description p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #2a2a2a;
+}
+#menu{
+    margin-top: 120px;
+    background-color: #fffafa;
+    padding: 120px 0px;
+}
+.section-heading h2{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #2a2a2a;
+}
+#chefs{
+    padding-top: 120px;
+    margin: 0 180px;
+}
+#chefs .chefs-item {
+    text-align: center;
+    border: 1px solid #afafaf;
+    padding: 5px;
+    transition: all .5s;
+    border-radius: 3px;
+}
+.chefs-image img{
+    width: 100%;
+    height: 100%;
+}
+.chefs-item .chefs-image{
+    position: relative;
+}
+.chefs-image:hover{
+    opacity: 0.3;
+}
+#chefs .chefs-item:hover{
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.down-content{
+    padding: 20px 0px;
+}
+#reservation {
+    margin-top: 120px;
+    padding: 120px 0px;
+    background-image: url(./assets/reservation-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#reservation .section-heading h6 {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+#reservation .section-heading h2{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white
+}
+#reservation p{
+    color: white;
+}
+#reservation .phone , #reservation .email{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+#reservation .phone i , #reservation .email i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fb5849;
+    line-height: 70px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    margin-top: -35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#reservation .phone h4 , #reservation .email h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#reservation .email a{
+    text-decoration: none;
+    color:#2a2a2a;
+}
+#reservation .email a:hover{
+    color: #fb5849;
+}
+#contact {
+    margin-left: 30px;
+    padding: 45px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#contact {
+    margin-left: 30px;
+    padding: 45px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#contact h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+}
+.contact-form input , .contact-form textarea{
+    color: #2a2a2a;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+    appearance: none;
+}
+.contact-form button{
+    color: white;
+    background-color: #fb5849;
+    border-radius: 3px;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    border: #fb5849;
+    font-size: 13px;
+    margin-top: -10px;
+    padding: 12px 25px;
+}
+footer{
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: #fb5849;
+}
+footer .right-text-content{
+    margin-top: 10px;
+    text-align: left;
+}
+.icons{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.icons-2{
+    text-decoration: none;
+    color:white;
+}
+footer .right-text-content img{
+    margin-top: -14px;
+}
+.icons i:hover{
+    color:#2a2a2a;
+}
+.logo{
+    margin-left: 100px;
+}
+#footer .right-text-content p{
+    text-align: right;
+    color: white;
+}
